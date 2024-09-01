@@ -1,0 +1,59 @@
+﻿/* URL Paleta de colores LIGHT: https://www.coloreasily.com/?colors=0f0e0b-ebeae5-637883-e0dfd6-877c9c */
+/* URL Paleta de colores DARK: https://www.coloreasily.com/?colors=edebf4-1b172b-60539d-25203c-8579b9 */
+@import url('https://fonts.googleapis.com/css2?family=Hind');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+:root {
+   --light-color-texto: #0f0e0b;
+   --light-color-fondo: #ebeae5;
+   --light-color-acento-1: #637883;
+   --light-color-acento-2: #e0dfd6;
+   --light-color-acento-3: #877c9c;
+   --dark-color-texto: #edebf4;
+   --dark-color-fondo: #1b172b;
+   --dark-color-acento-1: #60539d;
+   --dark-color-acento-2: #25203c;
+   --dark-color-acento-3: #8579b9;
+}
+
+ .light-theme {
+   color: #0f0e0b;
+   background-color: #ebeae5;
+}
+
+.dark-theme {
+   color: #edebf4;
+   background-color: #1b172b;
+}
+
+
+h1,h4{
+   font-family: "Hind", sans-serif;  
+}
+
+p{
+   font-family: "Work Sans", sans-serif;
+   background: transparent;
+}
+
+a{
+   font-family: "Open Sans", sans-serif;
+}
+
+article{
+   background-color: var(--light-color-acento-1);
+   color: var(--light-color-texto);
+}
+
+footer{
+   background:var(--dark-color-fondo);
+   color: var(--dark-color-texto);
+   font-family: "Work Sans", sans-serif;;
+}
+
+nav{
+   background:var(--dark-color-fondo);
+   color: var(--dark-color-texto);
+}
+

@@ -1,0 +1,56 @@
+﻿@import url("_core/css/temas_colores_fuentes.css");
+
+#encabezado-principal {
+ 
+}
+
+#navegacion-categoria {
+   
+   
+}
+
+#seccion-categoria {
+   
+}
+
+.articulo-categoria {
+   border: solid 4px #877c9c;
+   border-radius: 6px;
+}
+
+#footer-principal {
+   
+}
+
+#qr-code {
+   width:70px;
+   height:70px;
+}
+
+img{
+   height: 220px;
+   width: 280px;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+
+   
+}
+
+
+
+
+a{
+   background: transparent;
+   color: var(--dark-color-texto);
+   text-decoration: none;
+}
+
+a:checked{
+   color: var(--dark-color-texto);;
+}
+
+
+
+
+
