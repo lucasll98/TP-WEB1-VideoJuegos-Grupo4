@@ -1,0 +1,121 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Hind');
+*{
+  font-family: 'Hind';
+}
+
+body{
+   background: #e0dfd6;
+}
+
+.contenedorMenu{
+  width: 800px;
+  background-color: #877c9c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border: solid 5px;
+  box-shadow: 7px 5px 3px;
+}
+.linea{
+  height: 1px;
+  width: 100%;
+  margin-top: 20px;
+  background: black;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  margin: 5px;
+}
+.contra{
+  margin-top: 50px;
+}
+.emailCuadro{
+  width: 600px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: white;
+  margin-left: 5px;
+}
+.guardarCambios{
+  text-align: center;
+  height: 35px;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  display: flex;
+  align-self: column;
+  margin-top: 15px;
+  padding-top: 11px;
+  border: none;
+}
+.passwordCuadro{
+  width: 500px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: lightgray;
+  background-color: lightgray;
+}
+.cambiar{
+  text-align: center;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 10px;
+  width: 130px;
+  padding-left: 30px;
+}
+.datosPersonales{
+  margin-top: 20px;
+}
+.datos{
+  height: 30px;
+  width: 250px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+.tipoDoc{
+  height: 30px;
+  width: 175px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+.dni{
+  height: 30px;
+  width: 170px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+.fechaDeNacimiento{
+  height: 30px;
+  width: 220px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px; 
+}
+
+#mensaje{
+  margin-top: 2em;
+}
+
+.error{
+  color: blue;
+}
+
+.guardarCambios{
+  cursor: pointer;
+  background: #7345c9;
+}
+
+.guardarCambios:disabled {
+  color: white;
+  background-color: grey;
+  cursor: not-allowed;
+}
+

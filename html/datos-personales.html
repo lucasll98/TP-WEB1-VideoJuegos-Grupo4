@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Joynext | Datos Personales</title>
+   <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+   <link rel="stylesheet" href="/css/estilos-datos-personales.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+ 
+</head>
+<body>
+   <div class="contenedorMenu">
+      <div class="contenedorMenuYPassword">
+         <form action="" name="form" onsubmit="return validarCampo(), validarNombre(), validarApellido(), validarNroDocumento(), validarTelefono(), validarTipoDoc(), validarFecha(), validacionContrasenia()" id="form">
+            <h2>Mi usuario</h2>
+            <div class="linea">
+            </div>
+            <p>Email principal</p>
+            <input class="emailCuadro" type="email" id="email">
+            <button class="guardarCambios" disabled onclick="validaremail()" id="boton">GUARDAR CAMBIOS</button>
+            <div class="linea">
+            </div>
+            <p class="contra">Contraseña</p>
+            <input class="passwordCuadro" type="password" id="contrasenia">
+            <button class="cambiar">CAMBIAR </button>
+         
+   </div>
+   <div class="linea">
+   </div>
+   <div class="contenedorDatosPersonales">
+      <h2 class="datosPersonales">Datos personales</h2>
+      <div class="linea">
+      </div>
+      <p>Nombre</p>
+      <input class="datos" type="text" id="nombre">
+      <p>Apellido</p>
+      <input class="datos" type="text" id="apellido">
+      <p>Tipo</p>
+      <select class="tipoDoc" name="tipoDocumento" id="tipoDocumento">
+         <option value="0">Seleccione una opción</option>
+         <option value="1">DNI</option>
+         <option value="2">CI</option>
+         <option value="3">PASAPORTE</option>
+     </select>
+      <p>Numero de documento</p>
+      <input class="dni" type="text" id="nroDoc">
+      <p>Fecha de nacimiento</p>
+      <input class="fechaDeNacimiento" type="date" id="fechaNacimiento">
+      <p>Telefono</p>
+      <input class="datos" type="text" id="telefono">
+      <p>Email Secundario</p>
+      <input class="datos" type="email" id="emailDos">
+      <button class="guardarCambios" id="botonDos">GUARDAR CAMBIOS</button>
+        </form>
+ 
+        <div id="mensaje" class="error">
+ 
+        </div>
+ 
+   </div>
+   </div>
+   <div class="hipervinculo"> <a href="/index.html"><span class="material-symbols-outlined">
+      home
+      </span></a></div>
+ 
+      <script src="/js/datos-personales.js"></script>
+</body>
+</html>
